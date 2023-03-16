@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{606729F7-3209-493B-986B-A477A724632F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Domain", "Core\ETicaretAPI.Domain\ETicaretAPI.Domain.csproj", "{F317AC19-3639-4823-BF80-54502C8CD0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Application", "Core\ETicaretAPI.Application\ETicaretAPI.Application.csproj", "{172806A8-4DBE-4C5B-B06E-5EEFFC704F00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A4142105-6C58-42B1-8D1C-39422D144DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Infrastructure", "Infrastructure\ETicaretAPI.Infrastructure\ETicaretAPI.Infrastructure.csproj", "{9460CBF0-FB84-41FF-9C31-FF177E6442E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.Persistence", "Infrastructure\ETicaretAPI.Persistence\ETicaretAPI.Persistence.csproj", "{0B937261-64B1-49AC-AC67-BE86C6FD2878}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{46DDD2B5-5F66-467B-8D22-D3B3F192337D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretAPI.API", "Presentation\ETicaretAPI.API\ETicaretAPI.API.csproj", "{DB87C290-996C-4A6A-9C5F-4760B45E6E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F317AC19-3639-4823-BF80-54502C8CD0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F317AC19-3639-4823-BF80-54502C8CD0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F317AC19-3639-4823-BF80-54502C8CD0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F317AC19-3639-4823-BF80-54502C8CD0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172806A8-4DBE-4C5B-B06E-5EEFFC704F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172806A8-4DBE-4C5B-B06E-5EEFFC704F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172806A8-4DBE-4C5B-B06E-5EEFFC704F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172806A8-4DBE-4C5B-B06E-5EEFFC704F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9460CBF0-FB84-41FF-9C31-FF177E6442E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9460CBF0-FB84-41FF-9C31-FF177E6442E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9460CBF0-FB84-41FF-9C31-FF177E6442E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9460CBF0-FB84-41FF-9C31-FF177E6442E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B937261-64B1-49AC-AC67-BE86C6FD2878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B937261-64B1-49AC-AC67-BE86C6FD2878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B937261-64B1-49AC-AC67-BE86C6FD2878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B937261-64B1-49AC-AC67-BE86C6FD2878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB87C290-996C-4A6A-9C5F-4760B45E6E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB87C290-996C-4A6A-9C5F-4760B45E6E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB87C290-996C-4A6A-9C5F-4760B45E6E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB87C290-996C-4A6A-9C5F-4760B45E6E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F317AC19-3639-4823-BF80-54502C8CD0D8} = {606729F7-3209-493B-986B-A477A724632F}
+		{172806A8-4DBE-4C5B-B06E-5EEFFC704F00} = {606729F7-3209-493B-986B-A477A724632F}
+		{9460CBF0-FB84-41FF-9C31-FF177E6442E0} = {A4142105-6C58-42B1-8D1C-39422D144DB7}
+		{0B937261-64B1-49AC-AC67-BE86C6FD2878} = {A4142105-6C58-42B1-8D1C-39422D144DB7}
+		{DB87C290-996C-4A6A-9C5F-4760B45E6E6D} = {46DDD2B5-5F66-467B-8D22-D3B3F192337D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC09F725-32C8-4256-B67C-75123DC49476}
+	EndGlobalSection
+EndGlobal
